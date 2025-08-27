@@ -1,0 +1,26 @@
+{
+  "name": "granviver",
+  "version": "1.0",
+  "description": "Projeto da Gran Viver",
+  "main": "index.php",
+  "author": "Agência Affinity",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "sh ./deploy.sh"
+  },
+  "dependencies": {
+    "@babel/core": "^7.28.3",
+    "@babel/preset-env": "^7.28.3",
+    "browser-sync": "^3.0.4",
+    "gulp": "^5.0.1",
+    "gulp-autoprefixer": "^9.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^6.0.1",
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.90.0"
+  },
+  "devDependencies": {
+    "gulp-clean-css": "^4.3.0"
+  }
+}

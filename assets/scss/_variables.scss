@@ -1,0 +1,51 @@
+:root {
+  /* CORES */
+  --cor-verde: #0c6338;
+  --cor-verde-claro: #a5c73a;
+  --cor-branca: #ffffff;
+  --cor-preta: #010101;
+  --cor-marrom: #736458;
+  --cor-amarela: #dacda2;
+  --cor-azul: #0292a2;
+  --cor-cinza: #e6e7e8;
+  --cor-cinza-escuro: rgb(82, 84, 85);
+  --cor-preta2: #58595b;
+  --cor-berge: #9a742b;
+  --cor-amarelo: #fbda2d;
+
+  /* MARGINS E PADDINGS */
+
+  --esp_section: 100px;
+  --esp_itens: 50px;
+  --esp_text: 15px;
+  --esp_normal: 30px;
+
+  --fs_title: 1rem;
+  --fs_subtitle: 2rem;
+  --fs_text_itens_seg: 1rem;
+  --fs_text-itens: 10px;
+  --fs_text: 1.1rem;
+
+  /* Nav Menu */
+  --nav-bg: linear-gradient(50deg, rgba(5, 2, 2, 0.4) 0%, rgba(54, 54, 54, 0.2) 80%);
+  --nav-bg-scrolling: var(--cor-verde);
+  --nav-link-color: white;
+  --nav-link-active: #dacfa2;
+  --nav-hover-before: #40996c;
+  --nav-hover-after: #dacb7b;
+}
+
+@media only screen and (max-width: 782px) {
+  :root {
+    --esp_section: 40px;
+    --esp_itens: 50px;
+    --esp_text: 15px;
+    --esp_normal: 15px;
+
+    --fs_title: 1rem;
+    --fs_subtitle: 1.2rem;
+    --fs_text_itens_seg: 1rem;
+    --fs_text-itens: 10px;
+    --fs_text: 1.1rem;
+  }
+}

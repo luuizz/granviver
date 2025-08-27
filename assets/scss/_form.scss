@@ -1,0 +1,54 @@
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.form-group button {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: #d3592a;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 750px) {
+  .container p:nth-child(1) {
+    text-align: center;
+  }
+
+  .container p:nth-child(2) {
+    text-align: center;
+    margin-top: 10px;
+    color: var(--cor-azul);
+    font-family: 'm-semibold';
+  }
+
+  .container button {
+    width: 100%;
+    height: auto;
+    background: var(--cor-verde);
+    color: #ffffff;
+    font-family: 'm-semibold';
+    letter-spacing: 2px;
+  }
+
+  .texto-cadastre-se {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+}

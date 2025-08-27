@@ -1,0 +1,26 @@
+
+INFORMAÇÕES SOBRE O DOCUMENTO DO ADOBE ILLUSTRATOR
+
+Documento:C:\Users\alanp\Documents\GRAN_VIVER\SITE\HOME_GRANVIVER_V02.ai
+Dimensões:1920 x 5516
+Resolução da impressora:800
+
+Fontes usadas neste documento:7
+    Montserrat Medium
+    Montserrat Bold
+    NunitoSans SemiBold
+    NunitoSans ExtraBold
+    Montserrat SemiBold
+    Montserrat Regular
+    NunitoSans Regular
+-------
+
+database email_contato
+id_cliente_primario = 42 
+
+id_empreendimento = 3195
+
+altere a coluna site para Hilton Ibirapuera
+
+
+

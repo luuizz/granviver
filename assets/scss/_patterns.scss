@@ -1,0 +1,58 @@
+.s-hero-default {
+  height: 25rem;
+  background: url(../image/bg_desk_sections.webp) no-repeat center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: calc(2.75rem + 2.5rem);
+}
+
+.s-hero-default .container .top-infos {
+  text-align: center;
+}
+
+.s-hero-default .container .top-infos h1 {
+  font-size: 3rem;
+  color: var(--cor-branca);
+  font-family: 'm-semibold';
+  margin-bottom: 1.5rem;
+}
+
+.s-hero-default .container .top-infos .breadcrumbs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.s-hero-default .container .top-infos .breadcrumbs li {
+  position: relative;
+}
+
+.s-hero-default .container .top-infos .breadcrumbs li:not(:last-child):after {
+  content: '';
+  width: 1rem;
+  height: 1rem;
+  background: url(../image/icons/arrow-bread.svg) no-repeat center center;
+  position: absolute;
+  right: -1.875rem;
+  top: 0.0625rem;
+}
+
+.s-hero-default .container .top-infos .breadcrumbs li:not(:first-child) {
+  margin-left: 2.8125rem;
+}
+
+.s-hero-default .container .top-infos .breadcrumbs li a {
+  font-size: 0.875rem;
+  color: var(--cor-branca);
+  font-family: 'm-semibold';
+  transition: color 0.3s ease;
+}
+.s-hero-default .container .top-infos .breadcrumbs li a:hover {
+  color: var(--cor-verde-claro);
+}
+
+.s-hero-default .container .top-infos .breadcrumbs li:last-child a {
+  opacity: 0.85;
+}

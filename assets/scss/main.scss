@@ -1,0 +1,42 @@
+// =============================
+// 🌍 Globais
+// =============================
+@use 'variables';
+@use 'mixins';
+@use 'grid';
+@use 'fonts';
+@use 'typograph';
+@use 'globals';
+@use 'animation';
+
+// =============================
+// 🧩 Componentes
+// =============================
+@use 'accordion';
+@use 'assessoria';
+@use 'banner';
+@use 'chat';
+@use 'developer';
+@use 'footer';
+@use 'form';
+@use 'header';
+@use 'reset';
+@use 'section-estilos';
+@use 'social-sidebar';
+@use 'patterns';
+
+// =============================
+// 📄 Páginas
+// =============================
+@use 'home';
+@use 'pages/contato';
+@use 'pages/sobre';
+@use 'pages/empreendimento';
+@use 'pages/terreno';
+@use 'pages/perguntas';
+
+// =============================
+// 🎨 Estilos Extras
+// =============================
+@use 'style';
+@use 'style-2';

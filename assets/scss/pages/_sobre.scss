@@ -1,0 +1,238 @@
+.section_history {
+  padding: 100px 0;
+}
+
+.s-history .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.section_history .left {
+  width: 100%;
+  max-width: 560px;
+}
+
+.section_history .left img {
+  width: 100%;
+}
+
+.section_history .right {
+  width: 100%;
+  max-width: 38rem;
+}
+
+.section_history .right .text p {
+  color: #838383;
+  margin-bottom: 10px;
+}
+
+.section_history .right h2 {
+  font-size: 3rem;
+  line-height: 120%;
+}
+
+.section_institucional .si_subtitle {
+  color: var(--cor-amarelo);
+  padding: 10px 0;
+}
+
+.section_institucional {
+  background-image: url('https://agenciaaffinity.com.br/affinity_clientes/site-granviver/assets/image/page-sobre/background.png');
+  background-size: 100% 100%;
+  padding: 50px 0;
+  display: grid;
+  grid-template-columns: 40% 35%;
+  column-gap: 3%;
+  justify-content: center;
+  color: white;
+}
+
+.section_institucional .left {
+  display: grid;
+  row-gap: 20px;
+  grid-template-columns: 70%;
+  font-size: 1.1rem;
+  flex-direction: column;
+}
+
+.section_institucional .si_title {
+  font-family: 'm-b';
+  font-size: 2rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  margin-bottom: 10px;
+}
+
+.section_atuacao {
+  padding: 50px 0;
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: center;
+}
+
+.section_atuacao .right img {
+  width: 100%;
+}
+
+.section_atuacao .left .text .text_estado {
+  font-family: 'm-b';
+  color: var(--cor-verde);
+  padding-top: 10px;
+}
+
+.mt-0 {
+  padding-top: 0px !important;
+}
+.section_atuacao .left .text ul {
+  list-style: none;
+}
+
+.section_atuacao .left .text ul li {
+  margin: 5px 0;
+  color: var(--cor-cinza-escuro);
+  font-size: 0.9rem;
+}
+
+.section_atuacao .left .text ul .title_state {
+  font-family: 'm-b';
+  color: var(--cor-verde);
+  padding: 20px 0;
+}
+
+.section_atuacao .left .text .list_state {
+  display: flex;
+  column-gap: 5%;
+  margin-top: 20px;
+}
+
+@media (max-width: 991px) {
+  .s-history .container {
+    flex-direction: column-reverse;
+  }
+
+  .s-history .container .left {
+    max-width: 100%;
+  }
+
+  .s-history .container .right {
+    max-width: 90%;
+  }
+}
+
+@media only screen and (max-width: 782px) {
+  .section_history {
+    display: grid;
+    grid-template-columns: 90%;
+    column-gap: 3%;
+    justify-content: center;
+    padding: 30px 0;
+  }
+
+  .section_history .right {
+    order: 1;
+  }
+
+  .section_history .left {
+    order: 2;
+  }
+
+  .subtitle {
+    font-size: 1.2rem;
+    font-family: 'm-b';
+    margin: 10px 0;
+  }
+
+  .section_institucional {
+    background-image: url('https://agenciaaffinity.com.br/affinity_clientes/site-granviver/assets/image/page-sobre/background.png');
+    background-size: cover;
+
+    padding: 50px 0;
+    display: grid;
+    grid-template-columns: 80%;
+    column-gap: 3%;
+    justify-content: center;
+    color: white;
+  }
+
+  .section_institucional .si_title {
+    font-family: 'm-b';
+    font-size: 1.2rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    margin-bottom: 10px;
+  }
+
+  .section_institucional .left {
+    display: grid;
+    row-gap: 20px;
+    grid-template-columns: 100%;
+    font-size: 1.1rem;
+    flex-direction: column;
+  }
+  .section_institucional .left .text_missao {
+    border-bottom: 0px solid white;
+  }
+
+  .section_institucional .left {
+    margin-top: 30px;
+  }
+
+  .si_title {
+    margin-top: 30px;
+  }
+
+  .section_institucional .left {
+    display: grid;
+    row-gap: 20px;
+    grid-template-columns: 100%;
+    font-size: 1rem;
+    flex-direction: column;
+  }
+
+  .section_institucional .si_title {
+    font-family: 'm-b';
+    font-size: 1.2rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    margin-bottom: 10px;
+  }
+
+  .section_atuacao {
+    padding: 50px 0;
+    display: grid;
+    grid-template-columns: 90%;
+    justify-content: center;
+  }
+
+  .section_atuacao .right img {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .section_atuacao .left .text .list_state {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    column-gap: 5%;
+    row-gap: 50px;
+    margin-top: 20px;
+  }
+
+  .img_banner {
+    width: 100%;
+  }
+
+  .logo-menu {
+    width: 101px;
+    height: auto;
+    margin-top: 10px;
+    left: 0;
+    padding-left: 8%;
+  }
+}
